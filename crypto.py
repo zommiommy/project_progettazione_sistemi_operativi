@@ -197,10 +197,9 @@ if __name__ == "__main__":
     print(hex((a + b) % p))
     
     prng = PRNG()
-    print(prng.next_rand())
     
-    ## Generate some random numbers
-    #for _ in range(3):
-    #    x = prng.next_ff() % n
-    #    res = curve.multiply(x, G)
-    #    print(res)
+    # Generate some random numbers
+    for _ in range(3):
+        x = prng.next_ff() % n
+        res = curve.multiply(x, G)
+        print(res)
