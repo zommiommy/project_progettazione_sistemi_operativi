@@ -1,0 +1,12 @@
+{
+    "format": 1.0,
+    "type": 2.0,
+    "points": 25000000.0,
+    "count": 1.0,
+    "xincrement": 1.6e-09,
+    "xorigin": -0.02005,
+    "xreference": 0.0,
+    "yincrement": 6.6667e-06,
+    "yorigin": -445500.0,
+    "yreference": 32768.0
+}
