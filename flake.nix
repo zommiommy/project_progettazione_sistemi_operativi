@@ -34,12 +34,6 @@
           libffi
           libxml2
         ];
-        env = {
-          CPLUS_INCLUDE_PATH = "${pkgs.antlr4_12.runtime.cpp.dev}/include/antlr4-runtime";
-          CMAKE_MODULE_PATH = "${pkgs.antlr4_12.runtime.cpp.dev}/lib/cmake/antlr4-runtime";
-          CC = "${llvmPackages.clang}/bin/clang";
-          CXX = "${llvmPackages.clang}/bin/clang++";
-        };
       in
       {
         devShells.default = pkgs.mkShell {
