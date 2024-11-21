@@ -6,9 +6,9 @@ This is all the code and data used for the ECDH side-channel attack project.
 - `data/`: contains the data used for the attack and the capture and print scripts.
 - `manuals`: are the relevant manuals for the board and scope.
 - `tcl`: is the folder from `openocd` needed for uploading the code to the board.
-- everything else is a standard CubeMX project with most code in `Core/Src/main.c`.
 - `crypto.py` is a python reimplementation of the PRNG and ECC functions used to validate the C code.
 - `old`: contains old code for 256-bit finite fields ECDH.
+- everything else is a standard CubeMX project with most code in `Core/Src/main.c`.
 
 ## Circuit
 
